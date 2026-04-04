@@ -1,4 +1,6 @@
 class Usuario:
+    ROLES_VALIDOS = ["director", "restaurador jefe", "visitante", "encargado_catalogo"]
+
     def __init__(self, id, nombre, rol, clave):
         self.id = id
         self.nombre = nombre
